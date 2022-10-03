@@ -11,11 +11,20 @@ a {
     color: #222222;
     transition: all .3s;
 }
-
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul i {
+    font-size: 20px;
+    padding-right: 2px;
+    color: #FF6F61;
+}
 a:hover,
 a:active,
 a:focus {
     color: #FF6F61;
+    background: #ffffff;
     outline: none;
     text-decoration: none;
 }
@@ -218,7 +227,8 @@ a:focus {
     
     .sidebar .sidebar-footer a:hover {
         color: #FF6F61;
-        background: #ffffff;
+        background: #222222;
+        border: 1px solid #FF6F61;
     }
     
     .sidebar:hover .sidebar-footer {
@@ -1037,7 +1047,8 @@ a:focus {
 
 .contact .social a:hover {
     color: #FF6F61;
-    background: #222222;
+    background: #ffffff;
+    border: 1px solid #FF6F61;
 }
 
 .contact .form {
